@@ -1,0 +1,3 @@
+RewriteEngine On
+
+Rewriterule ^article-([a-z]+)-([0-9]+)\.html$ index?action=$&$id=$1

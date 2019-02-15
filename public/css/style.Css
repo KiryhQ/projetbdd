@@ -1,0 +1,106 @@
+
+#form_post{
+    width:30%;
+    margin-left:10%;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#form_post form{
+    width:100%;
+}
+#user_part{
+    width:65%;
+}
+#title_blog{
+    width:100%;
+}
+
+#blogs{
+    width:50%;
+    margin:0 auto; 
+    display:flex;
+    flex-wrap:wrap;
+}
+
+#titre_article{
+    width:100%;
+    background-color:rgb(50,50,50);
+    color:white;
+}
+#contenu_article{
+    width:100%;
+    background-color:pink;
+    color:black;
+    height:70px;
+}
+
+#info_article {
+    margin-bottom:15px;
+}
+body{
+    background-color: rgb(210,207,164);
+}
+
+
+/* ================================== LOGIN PART ====================================== */
+
+#login_beabook{
+    width:20%;
+    margin:5% auto 0 auto;
+    text-align:center;
+}
+
+#login_beabook form{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.login_beabook{
+    width:100%;
+    margin-bottom:15px;
+    border-radius:15px;
+    padding-left:10px;
+}
+
+#connect_login{
+    border-radius:15px;
+    margin:0 auto 10px auto;
+    border:1px solid black;
+    background:rgb(210,207,180);
+    padding:2.5px 5px;
+}
+
+#login_beabook a{
+    width:50%;
+}
+
+#title_login{
+    text-align:center;
+    margin-top:5%;
+}
+
+
+/* ================================== SUBSCRIBE PART ====================================== */
+.subscribe_beabook{
+    width:100%;
+    margin-bottom:15px;
+    border-radius:15px;
+    padding-left:10px;
+}
+.label_subscribe{
+    width:80%;
+}
+
+#p_subscribe{
+    width:100%;
+}
+#subscribe{
+    width:50%;
+    margin:10px auto 2% auto;
+    border:1px solid black;
+    background:rgb(210,207,180);
+    padding:2.5px 5px;
+    border-radius:15px;
+    cursor:pointer;
+}
